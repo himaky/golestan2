@@ -132,7 +132,7 @@ main {
 .hame {
   margin: 0 auto;
   max-width: 1200px;
- 
+ justify-content:center;
 .all,
 .all2 {
   right: 1200px;
