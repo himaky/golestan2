@@ -1,0 +1,846 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  /* height: 400vh; */
+}
+@font-face {
+  font-family: IranSans;
+  src: url(./assets/fonts/IRANSansWeb-Light.ttf);
+  src: url(./assets/fonts/IRANSansWeb-Light.woff);
+  src: url(./assets/fonts/IRANSansWeb-Light.woff2);
+}
+header {
+  text-align: justify;
+  z-index: 100;
+  width: 100%;
+ background-image: url(https://www.golestan.com/wp-content/uploads/2023/01/header-back.png);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  position: sticky;
+  top: 0;
+  img {
+    position: relative;
+    top: 50px;
+  }
+  nav {
+    display: flex;
+    font-family: IranSans;
+    font-size: px;
+    .menu-item {
+      color: lightgray;
+      text-decoration: none;
+      border-left: 1px solid rgb(86, 86, 86);
+      padding: 0 25px;
+      position: relative;
+      &:hover {
+        color: lightgray;
+      }
+      .sub-menu {
+        background-color: #2b2b2b;
+        position: absolute;
+        right: 0;
+        display: none;
+        flex-direction: column;
+        .sub-menue-item {
+          padding: 15px 15px;
+          white-space: nowrap;
+          text-decoration: none;
+          color: rgb(149, 149, 149);
+          &:hover {
+            color: lightgray;
+          }
+        }
+      }
+      &:hover {
+        .sub-menu {
+          display: flex;
+        }
+      }
+    }
+  }
+}
+@keyframes topToBottom {
+  100% {
+    opacity: 100;
+    transform: translateY(0px);
+  }
+}
+@keyframes backToFront {
+  100% {
+    opacity: 1;
+    transform: translateZ(0px);
+  }
+}
+main {
+  text-align: justify;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  background-image: linear-gradient(to bottom, white, lightgray);
+  .divone {
+    font-family: IranSas;
+    margin: 100px;
+    text-align: justify;
+    width: 500px;
+    h1,
+    h2,
+    p,
+    button {
+      margin-top: 16px;
+    }
+    h1 {
+      font-family: iransans;
+      font-size: 35;
+      color: red;
+    }
+    h2 {
+      font-family: iransans;
+      font-size: 25px;
+      color: #020202;
+    }
+  }
+}
+.img_pic {
+  width: 350px;
+  margin-right: -300px;
+}
+.text {
+  text-align: justify;
+  line-height: 40px;
+  font-family: iransans;
+  max-width: 700px;
+  margin: 50px auto;
+  h3 {
+    color: red;
+    font-size: 20px;
+  }
+  p {
+    padding-top: 20px;
+    color: gray;
+  }
+  span {
+    color: red;
+  }
+}
+.hame {
+  margin: 0 auto;
+  max-width: 1200px;
+ 
+.all,
+.all2 {
+  right: 1200px;
+  max-width: 1200px;
+  margin-top: 130px;
+  text-align: justify;
+  display: flex;
+
+  .element,
+  .element2,
+  .element3 {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .aromatic,
+  .india {
+    text-align: justify;
+    display: flex;
+    .cup {
+      margin-bottom: 20px;
+    }
+    h2 {
+      font-family: iransans;
+      color: red;
+      font-size: 20px;
+      margin-top: 30px;
+    }
+  }
+  hr {
+    width: 100%;
+  }
+  .weight,
+  .weight2 {
+    display: flex;
+    text-align: justify;
+    gap: 200px;
+    h3 {
+      margin: 10px;
+      font-family: iransans;
+      bottom: 1000px;
+      font-size: 18px;
+      top: 10px;
+      color: #626060;
+    }
+    .pics {
+      margin: 2px;
+      padding: 4px 0px 4px 0px;
+      left: 120px;
+    }
+  }
+  .text2,
+  .text3 {
+    p {
+      font-family: iransans;
+      direction: rtl;
+      line-height: 40px;
+      width: 470px;
+      text-align: center;
+      padding-top: 10px;
+      color: rgb(160, 157, 157);
+    }
+    button {
+      margin-top: 20px;
+      margin-left: 300px;
+      padding: 10px 15px;
+      border-radius: 10px;
+      background-color: white;
+      border: 1px solid rgb(157, 157, 157);
+      font-family: iransans;
+      transition-property: background-color;
+      transition-duration: 1s;
+      &:hover {
+        background-color: red;
+      }
+    }
+  }
+  .poster,
+  .poster2 {
+    .teabox {
+      margin-top: -40px;
+      margin-right: 400px;
+      width: 213px;
+      justify-content: center;
+      align-items: center;
+    }
+    .teabox2 {
+      margin-top: -40px;
+      margin-right: 400px;
+      width: 213px;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+}
+
+ 
+.all3,
+.all4 {
+  max-width: 1200px;
+  margin-top: 130px;
+  text-align: justify;
+  display: flex;
+
+  .element3 {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .green,
+  .orange {
+    text-align: justify;
+    display: flex;
+    .cup {
+      margin-bottom: 20px;
+    }
+    h2 {
+      font-family: iransans;
+      color: red;
+      font-size: 20px;
+      margin-top: 30px;
+    }
+  }
+  hr {
+    width: 100%;
+  }
+  .weight3,
+  .weight4 {
+    display: flex;
+    text-align: justify;
+    gap: 280px;
+    h3 {
+      margin: 10px;
+      font-family: iransans;
+      bottom: 1000px;
+      font-size: 18px;
+      top: 10px;
+      color: #626060;
+    }
+    .pics {
+      margin: 2px;
+      padding: 4px 0px 4px 0px;
+      left: 120px;
+    }
+  }
+  .text4,
+  .text5 {
+    p {
+      font-family: iransans;
+      direction: rtl;
+      line-height: 40px;
+      width: 470px;
+      text-align: center;
+      padding-top: 10px;
+      color: rgb(160, 157, 157);
+    }
+    button {
+      margin-top: 20px;
+      margin-left: 300px;
+      padding: 10px 15px;
+      border-radius: 10px;
+      background-color: white;
+      border: 1px solid rgb(157, 157, 157);
+      font-family: iransans;
+      transition-property: background-color;
+      transition-duration: 1s;
+      &:hover {
+        background-color: red;
+      }
+    }
+  }
+  .poster3,
+.poster4 {
+  .teabox3 {
+    margin-top: -40px;
+    margin-right: 400px;
+    width: 213px;
+    justify-content: center;
+    align-items: center;
+  }
+  .teabox4 {
+    margin-top: -40px;
+    margin-right: 400px;
+    width: 213px;
+    justify-content: center;
+    align-items: center;
+  }
+}
+}
+
+
+.darjeling {
+  max-width: 1200px;
+  margin-top: 130px;
+  text-align: justify;
+  display: flex;
+
+  .detail {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .purple {
+    text-align: justify;
+    display: flex;
+    .cup {
+      margin-bottom: 20px;
+    }
+    h2 {
+      font-family: iransans;
+      color: red;
+      font-size: 20px;
+      margin-top: 30px;
+    }
+  }
+  hr {
+    width: 100%;
+  }
+  .grm {
+    display: flex;
+    text-align: justify;
+    gap: 320px;
+    h3 {
+      margin: 10px;
+      font-family: iransans;
+      bottom: 1000px;
+      font-size: 18px;
+      top: 10px;
+      color: #626060;
+    }
+    .pics {
+      margin: 2px;
+      padding: 4px 0px 4px 0px;
+      left: 120px;
+    }
+  }
+  .about {
+    p {
+      font-family: iransans;
+      direction: rtl;
+      line-height: 40px;
+      width: 470px;
+      text-align: center;
+      padding-top: 10px;
+      color: rgb(160, 157, 157);
+    }
+  }
+  .img {
+    .pack {
+      margin-top: -40px;
+      margin-right: 400px;
+      width: 213px;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+}
+
+.tea-bag,.tea-bagr,.tea-bagwr,.tea-bagwb{
+  max-width: 1200px;
+  margin-top: 130px;
+  text-align: justify;
+  display: flex;
+
+  .detail-2,.detail3,.detail4,.detail5 {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .black,.red,.wr,.wb {
+    text-align: justify;
+    display: flex;
+    .cup {
+      margin-right: 20px;
+      margin-bottom: 20px;
+    }
+    h2 {
+      margin: 0 10px;
+      margin-right: 20px;
+      font-family: iransans;
+      color: red;
+      font-size: 20px;
+      margin-top: 30px;
+    }
+  }
+  hr {
+    width: 100%;
+  }
+  .grm-2,.grm-3,.grm-4,.grm-5 {
+    display: flex;
+    text-align: justify;
+    gap: 220px;
+    h3 {
+      margin: 10px;
+      font-family: iransans;
+      bottom: 1000px;
+      font-size: 18px;
+      top: 10px;
+      color: #626060;
+    }
+    .pics {
+      padding: 4px 0px 4px 0px;
+      left: 120px;
+    }
+  }
+  .about-2,.about-3,.about-4,.about-5 {
+    p {
+      font-family: iransans;
+      direction: rtl;
+      line-height: 40px;
+      width: 470px;
+      text-align: center;
+      padding-top: 10px;
+      color: rgb(160, 157, 157);
+    }
+    button {
+      margin-top: 20px;
+      margin-left: 300px;
+      padding: 10px 15px;
+      border-radius: 10px;
+      background-color: white;
+      border: 1px solid rgb(157, 157, 157);
+      font-family: iransans;
+      transition-property: background-color;
+      transition-duration: 1s;
+      &:hover {
+        background-color: red;
+      }
+    }
+  }
+  .img2,.img3,.img4,.img5 {
+    margin-left: 10px;
+    .pack2,.pack3,.pack4,.pack5 {
+      margin-top: -40px;
+      margin-right: 400px;
+      width: 213px;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+}
+
+
+.tea-bagb {
+  max-width: 1200px;
+  margin-top: 130px;
+  text-align: justify;
+  display: flex;
+
+  .detail_b {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .blue {
+    text-align: justify;
+    display: flex;
+    .cup {
+      margin-bottom: 20px;
+    }
+    h2 {
+      font-family: iransans;
+      color: red;
+      font-size: 20px;
+      margin-top: 30px;
+    }
+  }
+  hr {
+    width: 100%;
+  }
+  .grm_b {
+    display: flex;
+    text-align: justify;
+    gap: 320px;
+    h3 {
+      margin: 10px;
+      font-family: iransans;
+      bottom: 1000px;
+      font-size: 18px;
+      top: 10px;
+      color: #626060;
+    }
+    .pics {
+      margin: 2px;
+      padding: 4px 0px 4px 0px;
+      left: 120px;
+    }
+  }
+  .about_b {
+    p {
+      font-family: iransans;
+      direction: rtl;
+      line-height: 40px;
+      width: 470px;
+      text-align: center;
+      padding-top: 10px;
+      color: rgb(160, 157, 157);
+    }
+  }
+  .img_b {
+    margin-left: 10px;
+    .pack_b {
+      margin-top: -40px;
+      margin-right: 400px;
+      width: 213px;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+}
+
+
+.indian-bag,.indian-bag2{
+  max-width: 1200px;
+  margin-top: 130px;
+  text-align: justify;
+  display: flex;
+
+  .item,.item2 {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .brown,.gray{
+    text-align: justify;
+    display: flex;
+    .cup {
+      margin-bottom: 20px;
+    }
+    h2 {
+      font-family: iransans;
+      color: red;
+      font-size: 20px;
+      margin-top: 30px;
+    }
+  }
+  hr {
+    width: 95%;
+  }
+  .force,.force2 {
+    display: flex;
+    text-align: justify;
+    gap: 200px;
+    h3 {
+      margin: 10px;
+      font-family: iransans;
+      bottom: 1000px;
+      font-size: 18px;
+      top: 10px;
+      color: #626060;
+    }
+    .pics {
+      margin: 2px;
+      padding: 4px 0px 4px 0px;
+      left: 120px;
+    }
+  }
+  .infos,.infos2{
+    p {
+      font-family: iransans;
+      direction: rtl;
+      line-height: 40px;
+      width: 500px;
+      text-align: center;
+      padding-top: 10px;
+      color: rgb(160, 157, 157);
+    }
+    button {
+      margin-top: 20px;
+      margin-left: 400px;
+      padding: 10px 15px;
+      border-radius: 10px;
+      background-color: white;
+      border: 1px solid rgb(157, 157, 157);
+      font-family: iransans;
+      transition-property: background-color;
+      transition-duration: 1s;
+      &:hover {
+        background-color: red;
+      }
+    }
+  }
+  .picture,.picture2 {
+    margin-left: 10px;
+    .box,.box2{
+      margin-top: -40px;
+      margin-right: 400px;
+      width: 213px;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+}
+.green-tea,.green-tea2,.green-tea3
+,.green-tea4,.green-tea5
+,.tea-bag1,.tea-bag2,
+.tea-bag3,.tea-bag4
+,.tea-bag5,.tea-bag6
+,.tea-bag7,.tea-bag8
+,.tea-bag9,.tea-bag10,.tea-bag11
+,.tea-bag12,.tea-bag13 {
+  max-width: 700px;     
+  max-width: 1200px;
+  margin-top: 130px;
+  text-align: justify;
+  display: flex;
+  .ingredients,.ingredients2,.ingredients3
+  ,.ingredients4,.ingredients5,.ingredients6
+  ,.ingredients7,.ingredients8
+  ,.ingredients9,.ingredientsx
+  ,.ingredientsx2,.ingredientsz,
+  .ingredients10,.ingredients11,.ingredients12
+  ,.ingredients13,.ingredients14,.ingredients15 {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .greenv,.greenv2,.greenv3
+  ,.greenv4,.greenv5,.greenv6
+  ,.greenv7,.greenv8,.greenv9,
+  .greenvx,.greenvx2
+  ,.greenz,.green10,.green11
+  ,.green12,.green13,.green14,.green15 {
+    text-align: justify;
+    display: flex;
+    .cup {
+      margin-bottom: 20px;
+    }
+    h2 {
+      margin-right: 30px;
+      font-family: iransans;
+      color: red;
+      font-size: 20px;
+      margin-top: 30px;
+    }
+  }
+  hr {
+    width: 100%;
+  }
+  .drag,.drag2,.drag3
+  ,.drag4,.drag5,.drag6
+  ,.drag7,.drag8
+  ,.drag9,.dragx,.dragx2,.dragz,.drag10
+  ,.drag11,.drag12
+  ,.drag13,.drag14,.drag15{
+    display: flex;
+    justify-content: flex-end;
+    text-align: justify;
+    gap: 300px; 
+    h3 {
+      margin: 10px;
+      font-family: iransans;
+      bottom: 1000px;
+      font-size: 18px;
+      top: 10px;
+      color: #626060;
+    }
+    .pics {
+      margin: 2px;
+      padding: 4px 0px 4px 0px;
+      left: 120px;
+    }
+  }
+  .fact,.fact2,.fact3
+  ,.fact4,.fact5,.fact6
+  ,.fact7,.fact8
+  ,.fact9,.factx,.factx2
+  ,.factz,.fact10,.fact11
+  ,.fact12,.fact13,.fact14,.fact15
+   {
+    p {
+      font-family: iransans;
+      direction: rtl;
+      line-height: 40px;
+      width: 470px;
+      text-align: center;
+      padding-top: 10px;
+      color: rgb(160, 157, 157);
+    }
+    button {
+      margin-top: 20px;
+      margin-left: 400px;
+      padding: 10px 15px;
+      border-radius: 10px;
+      background-color: white;
+      border: 1px solid rgb(157, 157, 157);
+      font-family: iransans;
+      transition-property: background-color;
+      transition-duration: 1s;
+      &:hover {
+        background-color: red;
+      }
+    }
+  }
+  .took,.took2,.took3
+  ,.took4,.took5,.took6
+  ,.took7,.took8
+  ,.took9,.tookx,.tookx2,.tookz
+  ,.took10,.took11,.took12
+  ,.took13,.took14,.took15
+  {
+    margin-left: 10px;
+    .greentea,.greentea2,.greentea3
+    ,.greentea4,.greentea5,.greentea6
+    ,.greentea7,.greentea8
+    ,.greentea9,.greenteax,.greenteax2
+    ,.greenteaz,.greentea10,.greentea11
+    ,.greentea12,.greentea13,.greentea14,.greentea15 {
+    display: inline-block;
+      max-width: 100%;
+      margin-top: -40px;
+      margin-right: 400px;
+      width: 213px;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+}
+}
+.social {
+  margin-top: 200px;
+  width: 100%;
+  height: 95px;
+  background-color: #eeefef;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  .socialBox {
+    width: 55px;
+    height: 55px;
+    border-radius: 100%;
+    transition: all;
+    transition-duration: 100ms;
+    -o-transition-timing-function: ease-in-out;
+  }
+  .facebookBox {
+    background-image: url(./icons/facebook.png);
+    &:hover {
+      background-image: url(./icons/facebookcolor.png);
+    }
+  }
+  .linkdinBox {
+    background-image: url(./icons/linkdin.png);
+    &:hover {
+      background-image: url(./icons/linkdincolor.png);
+    }
+  }
+  .instaBox {
+    background-image: url(./icons/instagram.png);
+    &:hover {
+      background-image: url(./icons/instagramcolor.png);
+    }
+  }
+  .telegramBox {
+    background-image: url(./icons/telegram.png);
+    &:hover {
+      background-image: url(./icons/telegramcolor.png);
+    }
+  }
+  .aparatBox {
+    background-image: url(./icons/aparat.png);
+    &:hover {
+      background-image: url(./icons/aparatcolor.png);
+    }
+  }
+  .gl {
+    background-image: url(./icons/gl.png);
+    &:hover {
+      background-image: url(./icons/glcolor.png);
+    }
+  }
+}
+.end {
+  font-family: iransans;
+  width: 100%;
+  height: 430px;
+  background-image: url(./assets/images/header-back.png);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  text-align: center;
+  font-size: 15px;
+  .h2list {
+    color: #a8a6a6;
+    list-style: none;
+    border-bottom: 1px dashed;
+    border-top: 1px dashed;
+    padding: 10px;
+    margin: 10px;
+  }
+  .li1 {
+    list-style: none;
+    color: lightgray;
+    &:hover {
+      color: white;
+    }
+  }
+}
+.redd {
+  height: 20px;
+  background-color: red;
+}
+.neveshte {
+  width: 100%;
+  height: 50px;
+  background-image: url(./assets/images/header-back.png);
+  text-align: center;
+  color: rgb(170, 170, 170);
+}
+

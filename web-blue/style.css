@@ -1,0 +1,182 @@
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f8f8;
+}
+
+header {
+  text-align: justify;
+
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 60px;
+  top: 0;
+  img {
+    width: 150px;
+    position: relative;
+    top: 50px;
+  }
+ 
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+section {
+  padding: 20px;
+  margin: 10px;
+  background-color: #ffffff;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  h2,
+  p{
+    color: darkgray;
+    font-family: IranSas;
+    text-align: center;
+    margin-top: 50px;
+    font-size: 20px;
+  }
+  h2{
+    color: red;
+    font-family: IranSas;
+    text-align: center;
+    font-size: 25px; 
+  }
+  .social {
+    margin-top: -10px;
+    width: 100%;
+    height: 95px;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .socialBox {
+      width: 55px;
+      height: 55px;
+      border-radius: 100%;
+      transition: all;
+      transition-duration: 100ms;
+      -o-transition-timing-function: ease-in-out;
+    }
+    .facebookBox {
+      background-image: url(./icons/facebook.png);
+      &:hover {
+        background-image: url(./icons/facebookcolor.png);
+      }
+    }
+    .linkdinBox {
+      background-image: url(./icons/linkdin.png);
+      &:hover {
+        background-image: url(./icons/linkdincolor.png);
+      }
+    }
+    .instaBox {
+      background-image: url(./icons/instagram.png);
+      &:hover {
+        background-image: url(./icons/instagramcolor.png);
+      }
+    }
+    .telegramBox {
+      background-image: url(./icons/telegram.png);
+      &:hover {
+        background-image: url(./icons/telegramcolor.png);
+      }
+    }
+    .aparatBox {
+      background-image: url(./icons/aparat.png);
+      &:hover {
+        background-image: url(./icons/aparatcolor.png);
+      }
+    }
+    .gl {
+      background-image: url(./icons/gl.png);
+      &:hover {
+        background-image: url(./icons/glcolor.png);
+      }
+    }
+  }
+}
+
+.golestan{
+  display: inline-block;
+  margin-top: -100px;
+  right: -1350px;
+  border-radius: 200px;
+  height: auto;
+    max-width: 100%;
+    border: none;
+    border-radius: 0;
+    box-shadow: none;
+}
+
+
+footer {
+   margin-top: 30px;
+  text-align: center;
+  padding: 10px;
+   background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+}
+.maghale {
+    font-family: iransans;
+    font-size: 30px;
+    padding-right: 90px;
+    p {
+      padding-top: 30px;
+      color: red;
+    }
+  }
+  .swiper {
+    
+    width: 90%;
+    height: 100%;
+  }
+  
+  .swiper-slide {
+    border-radius: 10%;
+    border: 1px solid gray;
+    text-align: center;
+    font-size: 18px;
+    background: #fffdfd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+  }
+  .swiperp {
+    color: rgb(80, 79, 79);
+    font-family: iransans;
+    padding-bottom: 30px;
+  }
+  .about{
+    p{
+      color: black;
+      line-height: 40px;
+    }
+    h2{
+      color: red;
+    }
+  }
